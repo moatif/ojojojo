@@ -1,0 +1,1699 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(236, 236, 236);
+}
+.b1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(77, 77, 77),rgb(0, 0, 0));
+    
+    
+}
+.b2{
+   
+    width: 80%;
+    height: 80vh;
+background-color: #1F1837;
+    position: relative;
+    left: 10%;
+    top: 10vh;
+    border-radius: 25px;
+    
+}
+.b2 .logo{
+   display: flex;
+   direction: rtl;
+    width:  100%;
+    height: 10%;
+    position:absolute;
+    right: 5%;
+
+
+}
+
+.logo .logo1
+{
+padding-top: 5px;
+
+}
+.logo .p{
+   
+padding-right: 30px;
+padding-top: 10px;
+
+
+}
+.p a{
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.p a:hover{
+    color:red;
+    font-size:1.4em;
+    font-family:600;
+    transform: 0.7 sease;
+}
+hr{
+    width: 99.8%;
+    height: 2px;
+    position: absolute;
+    top: 43px;
+    background-color: rgb(255, 255, 255);
+
+}
+ .all1{
+    width:100%;
+    height:80%;
+ 
+    position: absolute;
+
+    top: 13%;
+
+}
+
+.all2 .new2 {
+
+display:flex ;
+letter-spacing: 2.5px;
+font-size: 1.3em;
+font-weight: 600;
+color: rgb(255, 0, 51);
+
+}
+
+.new2 p{
+    animation-name: zzz;
+animation-duration: 3s;
+animation-iteration-count:infinite;
+animation-delay:calc(0.11s * var(--animat))
+}
+.all2{
+display: flex;
+justify-content: end;
+position: relative;
+right: 5em;
+top: 30px;
+
+
+}
+.all2 .new2 {
+margin-left: 5px;
+}
+
+
+.all1  .all3{
+    width: 50%;
+    height: 90%;
+
+    position: absolute;
+    top: 30px ;
+
+   
+
+}
+.all1 .all3 img{
+    width: 80% ;
+    height: 100%;
+}
+
+@keyframes zzz {
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-20px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
+
+.ar{
+direction: rtl;
+position: relative;
+top: 2.4em;
+right: 4em;
+font-size: 1.4em;
+font-weight: 600;
+color:rgb(255, 0, 0);
+animation-name: lll;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes lll{
+    0%{
+   opacity: 100%;
+    }
+    50%{
+      opacity: 10%;
+    }
+    100%{
+      opacity: 100%;
+    }
+}
+   
+
+.ar2{
+    direction: rtl;
+    color: rgb(185, 185, 185);
+    font-size: 1em;
+    font-weight: 600;
+    font-family:fantasy;
+    position: relative;
+    top: 5em;
+    right: 2em;
+
+}
+.ar2  h3{
+    margin-top: 7px;
+}
+.but{
+    direction: rtl;
+    position: relative;
+    top: 8em;
+    right: 2em;
+
+
+}
+.but button{
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  font-weight: 600;
+
+background-color:red;
+    width: 7em;
+    height: 2.5em;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.but button:hover{
+    color: rgb(255, 0, 0);
+    font-size: 1.2em;
+    font-weight: 600;
+  
+  background-color: #1F1837;
+      width: 7em;
+      height: 2.5em;
+      margin-left: 10px;
+  }
+
+.svg1{
+    position: relative;
+    bottom: 3.4em;
+    background-color:rgb(8, 8, 8);
+
+
+}
+
+
+.moh1{
+
+    width: 100%;
+    height: 70vh;
+}
+.moh2{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 22px;
+}
+.moh3{
+    background-color: #372c58;
+    width: 15em;
+    height: 20em;
+position: relative;
+right: 25px;
+border-radius: 10px;
+}
+.moh4{
+    background-color: #372c58;
+    width: 15em;
+    height: 20em;
+    position: relative;
+    left: 25px; 
+    border-radius: 10px;
+}
+.moh4 i{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    position: relative;
+    top: 0.6em;
+    left: 1.2em;
+    
+}
+.moh3 i{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    position: relative;
+    top: 0.6em;
+    left: 1.2em;
+    
+}
+.moh3  p{
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    font-weight: 600;
+    position: relative;
+    left: 3.5em;
+    top: 2.6em;
+
+}
+.moh4  p{
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    font-weight: 600;
+    position: relative;
+    left: 3.7em;
+    top: 2.6em;
+
+}
+.moh3  h5{
+    color: rgb(161, 161, 161);
+      font-size: 1em;
+    font-weight: 600;
+    position: relative;
+    left: 1em;
+    top: 7em;
+
+}
+.moh4  h5{
+    color: rgb(161, 161, 161);
+      font-size: 1em;
+    font-weight: 600;
+    position: relative;
+    left: 1.2em;
+    top: 7em;
+
+}
+
+.moh3 button{
+    background-color:  rgb(255, 0, 0);
+    color:whitesmoke;
+    font-size: 1.4em;
+    font-weight: 600;
+    border:1px solid blue ;
+    
+    width: 7em;
+    height: 2.2em;
+position: relative;
+left: 20%;
+top: 43%;
+border-radius: 30px;
+}
+
+.moh3 button:hover{
+    background-color:  #372c58;
+    color:rgb(255, 0, 0);
+    font-size: 1.4em;
+    font-weight: 600;
+    border:2px solid rgb(255, 0, 0) ;
+    
+    width: 8em;
+    height: 2.5em;
+position: relative;
+left: 15%;
+top: 43%;
+border-radius: 30px;
+}
+
+.moh4 button{
+    background-color:  rgb(255, 0, 0);
+    color:whitesmoke;
+    font-size: 1.4em;
+    font-weight: 600;
+    border:1px solid blue ;
+    
+    width: 7em;
+    height: 2.2em;
+position: relative;
+left: 20%;
+top: 43%;
+border-radius: 30px;
+}
+
+.moh4 button:hover{
+    background-color:  #372c58;
+    color:rgb(255, 0, 0);
+    font-size: 1.4em;
+    font-weight: 600;
+    border:2px solid rgb(255, 0, 0) ;
+    
+    width: 8em;
+    height: 2.5em;
+position: relative;
+left: 15%;
+top: 43%;
+border-radius: 30px;
+}
+
+#moh0{
+    color: #372c58;
+    font-size: 2.1em;
+    font-weight: 600;
+    position: absolute;
+    left: 43%;
+}
+
+
+#add2{
+    width: 100%;
+    height: 30vh;
+    background-color: #372c58;
+    position: relative;
+    bottom: 10px;
+}
+.add0{
+    margin-right: 30px;
+    direction: rtl;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: aliceblue;
+}
+.add0 h3{
+    margin-top: 20px;
+    
+}
+.add5{
+        display: flex;
+}
+.add5 a{
+    color: rgb(255, 0, 0);
+    margin-right: 30px;
+    margin-top: 1em;
+    text-decoration: none;
+}
+.add5 i{
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:800px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(236, 236, 236);
+    }
+    .b1{
+        width:107%;
+        height: 100vh;
+        background: linear-gradient(rgb(77, 77, 77),rgb(0, 0, 0));
+        
+        
+    }
+    .b2{
+       
+        width: 80%;
+        height: 80vh;
+    background-color: #1F1837;
+        position: relative;
+        left: 10%;
+        top: 10vh;
+        border-radius: 25px;
+        
+    }
+    .b2 .logo{
+       display: flex;
+       direction: rtl;
+        width:  100%;
+        height: 10%;
+        position:absolute;
+        right: 5%;
+    
+    
+    }
+    
+    .logo .logo1
+    {
+    padding-top: 5px;
+    
+    }
+    .logo .p{
+       
+    padding-right: 30px;
+    padding-top: 10px;
+    
+    
+    }
+    .p a{
+        color: rgb(236, 236, 236);
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .p a:hover{
+        color:red;
+        font-size:1.4em;
+        font-family:600;
+        transform: 0.7 sease;
+    }
+    hr{
+        width: 99.8%;
+        height: 2px;
+        position: absolute;
+        top: 43px;
+        background-color: rgb(255, 255, 255);
+    
+    }
+     .all1{
+        width:100%;
+        height:80%;
+     
+        position: absolute;
+    
+        top: 13%;
+    
+    }
+    
+    .all2 .new2 {
+    
+    display:flex ;
+    letter-spacing: 2.5px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgb(255, 0, 51);
+    
+    }
+    
+    .new2 p{
+        animation-name: zzz;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-delay:calc(0.11s * var(--animat))
+    }
+    .all2{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 3em;
+    top: 30px;
+    
+    
+    }
+    .all2 .new2 {
+    margin-left: 5px;
+    }
+    
+    
+    .all1  .all3{
+        width: 50%;
+        height: 90%;
+    
+        position: absolute;
+        top: 30px ;
+    
+       
+    
+    }
+    .all1 .all3 img{
+        width: 80% ;
+        height: 100%;
+    }
+    
+    @keyframes zzz {
+        0%{
+            transform:translateY(0);
+        }
+        50%{
+            transform:translateY(-20px);
+        }
+        100%{
+            transform:translateY(0);
+        }
+    }
+    
+    
+    .ar{
+    direction: rtl;
+    position: relative;
+    top: 2.4em;
+    right: 2.8em;
+    font-size: 1.4em;
+    font-weight: 600;
+    color:rgb(255, 0, 0);
+    animation-name: lll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes lll{
+        0%{
+       opacity: 100%;
+        }
+        50%{
+          opacity: 10%;
+        }
+        100%{
+          opacity: 100%;
+        }
+    }
+       
+    
+    .ar2{
+        direction: rtl;
+        color: rgb(185, 185, 185);
+        font-size: 0.7em;
+        font-weight: 600;
+        font-family:fantasy;
+        position: relative;
+        top: 7em;
+        right: 2em;
+    
+    }
+    .ar2  h3{
+        margin-top: 7px;
+    }
+    .but{
+        direction: rtl;
+        position: relative;
+        top: 8em;
+        right: 1em;
+    
+    
+    }
+    .but button{
+      color: rgb(255, 255, 255);
+      font-size: 1.2em;
+      font-weight: 600;
+    
+    background-color:red;
+        width: 6.1em;
+        height: 2em;
+        border: 1px solid rgb(255, 0, 0);
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    
+    .but button:hover{
+        color: rgb(255, 0, 0);
+        font-size: 1.2em;
+        font-weight: 600;
+      
+      background-color: #1F1837;
+          width: 7em;
+          height: 2.5em;
+          margin-left: 10px;
+      }
+    
+    .svg1{
+        position: relative;
+        bottom: 3.4em;
+        background-color:rgb(8, 8, 8);
+    width: 106.9%;
+    height: 100%;
+    
+    }
+    
+    
+    .moh1{
+    
+        width: 100%;
+        height: 70vh;
+    }
+    .moh2{
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 3em;
+        margin-left: 25px;
+    }
+    .moh3{
+        background-color: #372c58;
+        width: 15em;
+        height: 20em;
+    position: relative;
+    right: 25px;
+    border-radius: 10px;
+    }
+    .moh4{
+        background-color: #372c58;
+        width: 15em;
+        height: 20em;
+        position: relative;
+        left: 25px; 
+        border-radius: 10px;
+    }
+    .moh4 i{
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        position: relative;
+        top: 0.6em;
+        left: 1.2em;
+        
+    }
+    .moh3 i{
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        position: relative;
+        top: 0.6em;
+        left: 1.2em;
+        
+    }
+    .moh3  p{
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+        font-weight: 600;
+        position: relative;
+        left: 3.5em;
+        top: 2.6em;
+    
+    }
+    .moh4  p{
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+        font-weight: 600;
+        position: relative;
+        left: 3.7em;
+        top: 2.6em;
+    
+    }
+    .moh3  h5{
+        color: rgb(161, 161, 161);
+          font-size: 1em;
+        font-weight: 600;
+        position: relative;
+        left: 1em;
+        top: 7em;
+    
+    }
+    .moh4  h5{
+        color: rgb(161, 161, 161);
+          font-size: 1em;
+        font-weight: 600;
+        position: relative;
+        left: 1.2em;
+        top: 7em;
+    
+    }
+    
+    .moh3 button{
+        background-color:  rgb(255, 0, 0);
+        color:whitesmoke;
+        font-size: 1.4em;
+        font-weight: 600;
+        border:1px solid blue ;
+        
+        width: 7em;
+        height: 2.2em;
+    position: relative;
+    left: 20%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh3 button:hover{
+        background-color:  #372c58;
+        color:rgb(255, 0, 0);
+        font-size: 1.4em;
+        font-weight: 600;
+        border:2px solid rgb(255, 0, 0) ;
+        
+        width: 8em;
+        height: 2.5em;
+    position: relative;
+    left: 15%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh4 button{
+        background-color:  rgb(255, 0, 0);
+        color:whitesmoke;
+        font-size: 1.4em;
+        font-weight: 600;
+        border:1px solid blue ;
+        
+        width: 7em;
+        height: 2.2em;
+    position: relative;
+    left: 20%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh4 button:hover{
+        background-color:  #372c58;
+        color:rgb(255, 0, 0);
+        font-size: 1.4em;
+        font-weight: 600;
+        border:2px solid rgb(255, 0, 0) ;
+        
+        width: 8em;
+        height: 2.5em;
+    position: relative;
+    left: 15%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    #moh0{
+        color: #372c58;
+        font-size: 2.1em;
+        font-weight: 600;
+        position: absolute;
+        left: 43%;
+        
+    }
+    
+    #add1{
+        width: 107%;
+        height: 100%;
+    }
+    #add2{
+        width: 100%;
+        height: 30vh;
+        background-color: #372c58;
+        position: relative;
+        bottom: 10px;
+    }
+    .add0{
+        margin-right: 30px;
+        direction: rtl;
+        font-size: 1.3em;
+        font-weight: 600;
+        color: aliceblue;
+    }
+    .add0 h3{
+        margin-top: 20px;
+        
+    }
+    .add5{
+            display: flex;
+    }
+    .add5 a{
+        color: rgb(255, 0, 0);
+        margin-right: 30px;
+        margin-top: 1em;
+        text-decoration: none;
+    }
+    .add5 i{
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+    }   
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:400px) and (max-width:600px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(236, 236, 236);
+    }
+    .b1{
+        width:107%;
+        height: 80vh;
+        background: linear-gradient(rgb(77, 77, 77),rgb(0, 0, 0));
+        
+        
+    }
+    .b2{
+       
+        width: 80%;
+        height: 60vh;
+    background-color: #1F1837;
+        position: relative;
+        left: 10%;
+        top: 10vh;
+        border-radius: 25px;
+        
+    }
+    .b2 .logo{
+       display: flex;
+       direction: rtl;
+        width:  100%;
+        height: 10%;
+        position:absolute;
+        right: 5%;
+    
+    
+    }
+    
+    .logo .logo1
+    {
+    padding-top: 5px;
+    
+    }
+    .logo .p{
+       
+    padding-right: 30px;
+    padding-top: 10px;
+    
+    
+    }
+    .p a{
+        color: rgb(236, 236, 236);
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .p a:hover{
+        color:red;
+        font-size:1.4em;
+        font-family:600;
+        transform: 0.7 sease;
+    }
+    hr{
+        width: 99.8%;
+        height: 2px;
+        position: absolute;
+        top: 43px;
+        background-color: rgb(255, 255, 255);
+    
+    }
+     .all1{
+        width:100%;
+        height:80%;
+     
+        position: absolute;
+    
+        top: 13%;
+
+    
+    }
+    
+    .all2 .new2 {
+    
+    display:flex ;
+    letter-spacing: 2.5px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: rgb(255, 0, 51);
+    
+    }
+    
+    .new2 p{
+        animation-name: zzz;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-delay:calc(0.11s * var(--animat))
+    }
+    .all2{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 2em;
+    top: 30px;
+    
+    
+    }
+    .all2 .new2 {
+    margin-left: 5px;
+    }
+    
+    
+    .all1  .all3{
+        width: 50%;
+        height: 70%;
+    
+        position: absolute;
+        top: 30px ;
+    
+       
+    
+    }
+    .all1 .all3 img{
+        width: 80% ;
+        height: 100%;
+    }
+    
+    @keyframes zzz {
+        0%{
+            transform:translateY(0);
+        }
+        50%{
+            transform:translateY(-20px);
+        }
+        100%{
+            transform:translateY(0);
+        }
+    }
+    
+    
+    .ar{
+    direction: rtl;
+    position: relative;
+    top: 2.4em;
+    right: 1.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color:rgb(255, 0, 0);
+    animation-name: lll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes lll{
+        0%{
+       opacity: 100%;
+        }
+        50%{
+          opacity: 10%;
+        }
+        100%{
+          opacity: 100%;
+        }
+    }
+       
+    
+    .ar2{
+        direction: rtl;
+        color: rgb(185, 185, 185);
+        font-size: 0.5em;
+        font-weight: 600;
+        font-family:fantasy;
+        position: relative;
+        top: 9em;
+        right: 2em;
+    
+    }
+    .ar2  h3{
+        margin-top: 7px;
+    }
+    .but{
+        direction: rtl;
+        position: relative;
+        top: 8em;
+        right: 1em;
+
+    
+    
+    }
+    .but button{
+
+        display: block;
+      color: rgb(255, 255, 255);
+      font-size: 1.2em;
+      font-weight: 600;
+    
+    background-color:red;
+        width: 6.1em;
+        height: 2em;
+        border: 1px solid rgb(255, 0, 0);
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .but button:hover{
+        color: rgb(255, 0, 0);
+        font-size: 1.2em;
+        font-weight: 600;
+      
+      background-color: #1F1837;
+          width: 7em;
+          height: 2.5em;
+          margin-left: 10px;
+      }
+    
+    .svg1{
+        position: relative;
+        bottom: 3.4em;
+        background-color:rgb(8, 8, 8);
+    width: 106.9%;
+    height: 100%;
+    
+    }
+    
+    
+    .moh1{
+    
+        width: 100%;
+        height: 130vh;
+    }
+    .moh2{
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+        margin-top: 4em;
+
+    }
+    .moh3{
+        background-color: #372c58;
+        width: 15em;
+        height: 20em;
+     position: relative;
+     left: 6em;
+     border-radius: 10px;
+    }
+    .moh4{
+        margin-top: 15px;
+        background-color: #372c58;
+        width: 15em;
+        height: 20em;
+        position: relative;
+        left: 6em; 
+        border-radius: 10px;
+    }
+    .moh4 i{
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        position: relative;
+        top: 0.6em;
+        left: 1.2em;
+        
+    }
+    .moh3 i{
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        position: relative;
+        top: 0.6em;
+        left: 1.2em;
+        
+    }
+    .moh3  p{
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+        font-weight: 600;
+        position: relative;
+        left: 3.5em;
+        top: 2.6em;
+    
+    }
+    .moh4  p{
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+        font-weight: 600;
+        position: relative;
+        left: 3.7em;
+        top: 2.6em;
+    
+    }
+    .moh3  h5{
+        color: rgb(161, 161, 161);
+          font-size: 1em;
+        font-weight: 600;
+        position: relative;
+        left: 1em;
+        top: 7em;
+    
+    }
+    .moh4  h5{
+        color: rgb(161, 161, 161);
+          font-size: 1em;
+        font-weight: 600;
+        position: relative;
+        left: 1.2em;
+        top: 7em;
+    
+    }
+    
+    .moh3 button{
+        background-color:  rgb(255, 0, 0);
+        color:whitesmoke;
+        font-size: 1.4em;
+        font-weight: 600;
+        border:1px solid blue ;
+        
+        width: 7em;
+        height: 2.2em;
+    position: relative;
+    left: 20%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh3 button:hover{
+        background-color:  #372c58;
+        color:rgb(255, 0, 0);
+        font-size: 1.4em;
+        font-weight: 600;
+        border:2px solid rgb(255, 0, 0) ;
+        
+        width: 8em;
+        height: 2.5em;
+    position: relative;
+    left: 15%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh4 button{
+        background-color:  rgb(255, 0, 0);
+        color:whitesmoke;
+        font-size: 1.4em;
+        font-weight: 600;
+        border:1px solid blue ;
+        
+        width: 7em;
+        height: 2.2em;
+    position: relative;
+    left: 20%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh4 button:hover{
+        background-color:  #372c58;
+        color:rgb(255, 0, 0);
+        font-size: 1.4em;
+        font-weight: 600;
+        border:2px solid rgb(255, 0, 0) ;
+        
+        width: 8em;
+        height: 2.5em;
+    position: relative;
+    left: 15%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    #moh0{
+        color: #372c58;
+        font-size: 2.1em;
+        font-weight: 600;
+        position: absolute;
+        left: 33%;
+        
+    }
+    
+    #add1{
+        width: 107%;
+        height: 100%;
+    }
+    #add2{
+        width: 100%;
+        height: 30vh;
+        background-color: #372c58;
+        position: relative;
+        bottom: 10px;
+    }
+    .add0{
+        margin-right: 30px;
+        direction: rtl;
+        font-size: 1em;
+        font-weight: 600;
+        color: aliceblue;
+    }
+    .add0 h3{
+        margin-top: 20px;
+        
+    }
+    .add5{
+        display: flex;
+    }
+    .add5 a{
+        color: rgb(5, 119, 148);
+        margin-right: 1px;
+        margin-top: 1em;
+        text-decoration: none;
+        display: block;
+    }
+    .add5 i{
+        color: rgb(255, 255, 255);
+        font-size: 0.9em;
+    }
+    .add6{
+        font-size: 1.5em;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+    .add7{
+        margin-top: 3.4em;
+    }
+    
+}    
+
+
+
+
+
+
+@media screen and (min-width:1px) and (max-width:400px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(236, 236, 236);
+    }
+    .b1{
+        width:107%;
+        height: 80vh;
+        background: linear-gradient(rgb(77, 77, 77),rgb(0, 0, 0));
+        
+        
+    }
+    .b2{
+       
+        width: 80%;
+        height: 60vh;
+    background-color: #1F1837;
+        position: relative;
+        left: 10%;
+        top: 10vh;
+        border-radius: 25px;
+        
+    }
+    .b2 .logo{
+       display: flex;
+       direction: rtl;
+        width:  100%;
+        height: 10%;
+        position:absolute;
+        right: 5%;
+    
+    
+    }
+    
+    .logo .logo1
+    {
+    padding-top: 5px;
+    
+    }
+    .logo .p{
+       
+    padding-right: 30px;
+    padding-top: 10px;
+    
+    
+    }
+    .p a{
+        color: rgb(236, 236, 236);
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .p a:hover{
+        color:red;
+        font-size:1.4em;
+        font-family:600;
+        transform: 0.7 sease;
+    }
+    hr{
+        width: 99.8%;
+        height: 2px;
+        position: absolute;
+        top: 43px;
+        background-color: rgb(255, 255, 255);
+    
+    }
+     .all1{
+        width:100%;
+        height:80%;
+     
+        position: absolute;
+    
+        top: 13%;
+
+    
+    }
+    
+    .all2 .new2 {
+    
+    display:flex ;
+    letter-spacing: 2.5px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: rgb(255, 0, 51);
+    
+    }
+    
+    .new2 p{
+        animation-name: zzz;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-delay:calc(0.11s * var(--animat))
+    }
+    .all2{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 2em;
+    top: 30px;
+    
+    
+    }
+    .all2 .new2 {
+    margin-left: 5px;
+    }
+    
+    
+    .all1  .all3{
+        width: 50%;
+        height: 70%;
+    
+        position: absolute;
+        top: 150px ;
+    
+       
+    
+    }
+    .all1 .all3 img{
+        width: 80% ;
+        height: 100%;
+    }
+    
+    @keyframes zzz {
+        0%{
+            transform:translateY(0);
+        }
+        50%{
+            transform:translateY(-20px);
+        }
+        100%{
+            transform:translateY(0);
+        }
+    }
+    
+    
+    .ar{
+    direction: rtl;
+    position: relative;
+    top: 2.4em;
+    right: 1.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color:rgb(255, 0, 0);
+    animation-name: lll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes lll{
+        0%{
+       opacity: 100%;
+        }
+        50%{
+          opacity: 10%;
+        }
+        100%{
+          opacity: 100%;
+        }
+    }
+       
+    
+    .ar2{
+        direction: rtl;
+        color: rgb(185, 185, 185);
+        font-size: 0.5em;
+        font-weight: 600;
+        font-family:fantasy;
+        position: relative;
+        top: 9em;
+        right: 2em;
+    
+    }
+    .ar2  h3{
+        margin-top: 7px;
+    }
+    .but{
+        direction: rtl;
+        position: relative;
+        top: 8em;
+        right: 1em;
+
+    
+    
+    }
+    .but button{
+
+        display: block;
+      color: rgb(255, 255, 255);
+      font-size: 1.2em;
+      font-weight: 600;
+    
+    background-color:red;
+        width: 6.1em;
+        height: 2em;
+        border: 1px solid rgb(255, 0, 0);
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .but button:hover{
+        color: rgb(255, 0, 0);
+        font-size: 1.2em;
+        font-weight: 600;
+      
+      background-color: #1F1837;
+          width: 7em;
+          height: 2.5em;
+          margin-left: 10px;
+      }
+    
+    .svg1{
+        position: relative;
+        bottom: 3.4em;
+        background-color:rgb(8, 8, 8);
+    width: 106.9%;
+    height: 100%;
+    
+    }
+    
+    
+    .moh1{
+    
+        width: 100%;
+        height: 130vh;
+    }
+    .moh2{
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+        margin-top: 4em;
+
+    }
+    .moh3{
+        background-color: #372c58;
+        width: 15em;
+        height: 20em;
+     position: relative;
+     left: 6em;
+     border-radius: 10px;
+    }
+    .moh4{
+        margin-top: 15px;
+        background-color: #372c58;
+        width: 15em;
+        height: 20em;
+        position: relative;
+        left: 6em; 
+        border-radius: 10px;
+    }
+    .moh4 i{
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        position: relative;
+        top: 0.6em;
+        left: 1.2em;
+        
+    }
+    .moh3 i{
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        position: relative;
+        top: 0.6em;
+        left: 1.2em;
+        
+    }
+    .moh3  p{
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+        font-weight: 600;
+        position: relative;
+        left: 3.5em;
+        top: 2.6em;
+    
+    }
+    .moh4  p{
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+        font-weight: 600;
+        position: relative;
+        left: 3.7em;
+        top: 2.6em;
+    
+    }
+    .moh3  h5{
+        color: rgb(161, 161, 161);
+          font-size: 1em;
+        font-weight: 600;
+        position: relative;
+        left: 1em;
+        top: 7em;
+    
+    }
+    .moh4  h5{
+        color: rgb(161, 161, 161);
+          font-size: 1em;
+        font-weight: 600;
+        position: relative;
+        left: 1.2em;
+        top: 7em;
+    
+    }
+    
+    .moh3 button{
+        background-color:  rgb(255, 0, 0);
+        color:whitesmoke;
+        font-size: 1.4em;
+        font-weight: 600;
+        border:1px solid blue ;
+        
+        width: 7em;
+        height: 2.2em;
+    position: relative;
+    left: 20%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh3 button:hover{
+        background-color:  #372c58;
+        color:rgb(255, 0, 0);
+        font-size: 1.4em;
+        font-weight: 600;
+        border:2px solid rgb(255, 0, 0) ;
+        
+        width: 8em;
+        height: 2.5em;
+    position: relative;
+    left: 15%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh4 button{
+        background-color:  rgb(255, 0, 0);
+        color:whitesmoke;
+        font-size: 1.4em;
+        font-weight: 600;
+        border:1px solid blue ;
+        
+        width: 7em;
+        height: 2.2em;
+    position: relative;
+    left: 20%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    .moh4 button:hover{
+        background-color:  #372c58;
+        color:rgb(255, 0, 0);
+        font-size: 1.4em;
+        font-weight: 600;
+        border:2px solid rgb(255, 0, 0) ;
+        
+        width: 8em;
+        height: 2.5em;
+    position: relative;
+    left: 15%;
+    top: 43%;
+    border-radius: 30px;
+    }
+    
+    #moh0{
+        color: #372c58;
+        font-size: 2.1em;
+        font-weight: 600;
+        position: absolute;
+        left: 33%;
+        
+    }
+    
+    #add1{
+        width: 107%;
+        height: 100%;
+    }
+    #add2{
+        width: 100%;
+        height: 30vh;
+        background-color: #372c58;
+        position: relative;
+        bottom: 10px;
+    }
+    .add0{
+        margin-right: 30px;
+        direction: rtl;
+        font-size: 1em;
+        font-weight: 600;
+        color: aliceblue;
+    }
+    .add0 h3{
+        margin-top: 20px;
+        
+    }
+    .add5{
+        display: flex;
+    }
+    .add5 a{
+        color: rgb(5, 119, 148);
+        margin-right: 1px;
+        margin-top: 1em;
+        text-decoration: none;
+        display: block;
+    }
+    .add5 i{
+        color: rgb(255, 255, 255);
+        font-size: 0.9em;
+    }
+    .add6{
+        font-size: 1.5em;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+    .add7{
+        margin-top: 3.4em;
+    }
+    
+}    
+
+
+
+    
+
+
